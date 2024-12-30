@@ -1,11 +1,9 @@
 {
 	"extends": "../tsconfig.json",
 	"compilerOptions": {
-		"jsx": "react-jsx",
-		"moduleResolution": "Node",
 		"paths": {
 			"~*": ["./*"]
 		}
 	},
-	"include": ["src/**/*"]
+	"include": ["index.tsx"]
 }
