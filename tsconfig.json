@@ -14,5 +14,5 @@
 		"noImplicitAny": false,
 		"rootDirs": ["client/src", "server/src"]
 	},
-	"include": ["client/src/**/*", "server/src/**/*"]
+	"include": ["client/src/**/*", "server/src/**/*", "server/src/index.ts"]
 }
