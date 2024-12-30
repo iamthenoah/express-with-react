@@ -7,6 +7,6 @@
     "server"
   ],
   "scripts": {
-    "start": "npm run build -w * && npm run start -w server"
+    "start": "npm run build -w client && npm run build -w server && npm run start -w server"
   }
 }
