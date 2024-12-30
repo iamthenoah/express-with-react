@@ -1,10 +1,7 @@
 {
   "name": "express-with-react",
-  "author": "",
-  "description": "",
-  "version": "1.0.0",
-  "keywords": [],
-  "license": "ISC",
+  "author": "iamthenoah",
+  "description": "Boilerplate code for building an all-in-one, fullstack web application in TS.",
   "workspaces": [
     "client",
     "server"
