@@ -10,8 +10,6 @@
     "server"
   ],
   "scripts": {
-    "build": "npm run build -w *",
-    "start": "npm run start -w *",
-    "dev": "npm run dev -w *"
+    "start": "npm run build -w * && npm run start -w server"
   }
 }
