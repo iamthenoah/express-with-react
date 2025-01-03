@@ -4,8 +4,10 @@ import path from 'path'
 
 const app = express()
 
-app.use(express.static(path.resolve(process.cwd(), '../client/dist')))
-
 createRoutes(app)
+
+const client = path.resolve(process.cwd(), '../client/dist')
+app.use(express.static(client))
+app.get('*', (_, res) => res.sendFile(path.resolve(client, 'index.html')))
 
 app.listen(3000)
